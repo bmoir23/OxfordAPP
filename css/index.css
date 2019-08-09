@@ -1,0 +1,8 @@
+header {
+  display: flex;
+  flex-direction: row;
+}
+header nav {
+  justify-content: center;
+  align-items: space-around;
+}
