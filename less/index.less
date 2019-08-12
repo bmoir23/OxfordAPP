@@ -1,9 +1,44 @@
-header{
-    display:flex;
-    flex-direction: row;
+// header{
+//     display:flex;
+//     flex-direction: row;
 
-    nav{
-        justify-content: center;
-        align-items: space-around;
+//     nav{
+//         justify-content: center;
+//         align-items: space-around;
+//     }
+// }
+
+nav {
+   
+    display: flex;
+    justify-content: center;
+    width: 800px;
+
+    @media (max-width: 500px){
+        width:100%;
     }
+  
+  
+ 
+ 
+  
+  
+  /* Change the link color to #111 (black) on hover */
+   a:hover {
+    background-color:grey;
+  }
+}
+}
+
+.contact-form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+.form{
+    width: 100%;
+    @media(max-width:500px){
+        width: 100%;
+    }
+}
 }
