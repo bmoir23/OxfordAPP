@@ -26,3 +26,13 @@ nav a:hover {
     width: 100%;
   }
 }
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  footer {
+    width: 100%;
+  }
+}
